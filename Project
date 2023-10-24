@@ -17,7 +17,8 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		
+		Label nama = new Label("Halo");
+
 		Button button = new Button("Login");
 		button.setPrefWidth(100);
 		button.setPrefHeight(40);
